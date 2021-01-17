@@ -4,8 +4,8 @@ var speed,weight;
 function setup() {
   createCanvas(1600,400);
   
-  speed = random(55,90);
-  weight = random(400,1500);
+  speed = random(233,321);
+  weight = random(30,52);
   
   thickness = random(22,83);
 
@@ -18,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,255);  
+  background(0,0,0);  
   
   if(hasCollided(bullet,wall))
   {
